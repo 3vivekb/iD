@@ -6025,6 +6025,32 @@
             ],
             "name": "Pedestrian Crosswalk"
         },
+        "footway/marked-crossing": {
+            "icon": "highway-footway",
+            "fields": [
+                "crossing",
+                "access",
+                "surface",
+                "kerb",
+                "tactile_paving"
+            ],
+            "geometry": [
+                "line"
+            ],
+            "tags": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "marked"
+            },
+            "reference": {
+                "key": "footway",
+                "value": "crossing"
+            },
+            "terms": [
+                "marked crossing"
+            ],
+            "name": "Marked Crossing"
+        },
         "footway/sidewalk": {
             "icon": "highway-footway",
             "fields": [
@@ -6047,6 +6073,29 @@
             },
             "terms": [],
             "name": "Sidewalk"
+        },
+        "footway/unmarked-crossing": {
+            "fields": [
+                "crossing",
+                "access",
+                "surface",
+                "kerb",
+                "tactile_paving"
+            ],
+            "geometry": [
+                "line"
+            ],
+            "tags": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "unmarked"
+            },
+            "reference": {
+                "key": "footway",
+                "value": "crossing"
+            },
+            "terms": [],
+            "name": "Unmarked Crossing"
         },
         "ford": {
             "geometry": [

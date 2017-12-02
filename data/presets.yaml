@@ -2881,10 +2881,19 @@ en:
         name: Raised Pedestrian Crosswalk
         # 'terms: zebra crossing,flat top,hump,speed,slow'
         terms: '<translate with synonyms or related terms for ''Raised Pedestrian Crosswalk'', separated by commas>'
+      footway/marked-crossing:
+        # 'highway=footway, footway=crossing, crossing=marked'
+        name: Marked Crossing
+        # 'terms: marked crossing'
+        terms: '<translate with synonyms or related terms for ''Marked Crossing'', separated by commas>'
       footway/sidewalk:
         # 'highway=footway, footway=sidewalk'
         name: Sidewalk
         terms: '<translate with synonyms or related terms for ''Sidewalk'', separated by commas>'
+      footway/unmarked-crossing:
+        # 'highway=footway, footway=crossing, crossing=unmarked'
+        name: Unmarked Crossing
+        terms: '<translate with synonyms or related terms for ''Unmarked Crossing'', separated by commas>'
       ford:
         # ford=yes
         name: Ford

@@ -1166,8 +1166,16 @@
             "value": "zebra"
         },
         {
+            "key": "crossing",
+            "value": "marked"
+        },
+        {
             "key": "footway",
             "value": "sidewalk"
+        },
+        {
+            "key": "crossing",
+            "value": "unmarked"
         },
         {
             "key": "ford",

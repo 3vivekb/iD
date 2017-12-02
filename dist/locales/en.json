@@ -3772,8 +3772,16 @@
                     "name": "Pedestrian Crosswalk",
                     "terms": "zebra crossing"
                 },
+                "footway/marked-crossing": {
+                    "name": "Marked Crossing",
+                    "terms": "marked crossing"
+                },
                 "footway/sidewalk": {
                     "name": "Sidewalk",
+                    "terms": ""
+                },
+                "footway/unmarked-crossing": {
+                    "name": "Unmarked Crossing",
                     "terms": ""
                 },
                 "ford": {
